@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Fraunces";
+    src: url(fonts/Fraunces.ttf);
+    font-weight: 700;
+
+
+}
+@font-face {
+    font-family: "Montserrat";
+    src:url(fonts/Montserrat.ttf);
+    font-weight: 500;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.box {
+    background-color: white;
+    width: 400px;
+    height: 650px;
+    border-radius: 1vmin;
+    position: absolute; 
+    top: 50%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.parfum {
+    border-top-right-radius: 1vmin;
+    border-top-left-radius: 1vmin;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.MontserratP {
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    margin-top: auto;
+    font-size: 14px;
+    margin-left: 10%;
+    padding-top: 290px;
+    position: absolute;
+}
+
+.FrauncesG {
+font-family: "Fraunces";
+   font-size: 35px;
+   color: black;
+   
+    
+}
+
+.divG {
+    width: 350px;
+    height: 100px;
+    margin-left: 10%;
+    font-weight: 700;
+    padding-top: 290px;
+    position: absolute;
+}
+
+.MontserratA {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.divA {
+    width: 300px;
+    height: 100px;
+    margin-left: 10%;
+    font-weight: 700;
+    padding-top: 390px;
+    position: absolute;
+}
+
+.FrauncesM {
+    font-family: "Fraunces";
+    color: hsl(158, 36%, 37%)
+
+}
+
+.divM {
+    width: 240px;
+    height: 100px;
+    margin-left: 10%;
+    font-weight: 700;
+    padding-top: 500px;
+    position: absolute;
+}
+
+.divM2 {
+    width: 240px;
+    height: 100px;
+    margin-left: 47%;
+    font-weight: 700;
+    padding-top: 515px;
+    position: absolute;
+}
+
+.MontserratM {
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.button {
+    display: block;
+    height: 50px; 
+    width: 350px;
+    border-radius: 1vmin;
+    background: hsl(158, 36%, 37%);
+    border: hsl(158, 36%, 37%);
+    bottom: 20px;
+    right: 23px;
+    position: absolute;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    transition: ease-out 0.3s;
+    
+}
+
+.button:hover{
+    transition: ease-in 0.3s;
+    background: black;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
